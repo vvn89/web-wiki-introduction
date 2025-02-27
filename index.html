@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>자기소개 위키 페이지</title>
+    <title>토바에 위키 페이지</title>
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/index.js"></script>
   </head>
@@ -16,7 +16,7 @@
         </h1>
       </header>
       <main>
-        <h2 class="title">크론</h2>
+        <h2 class="title">토바에</h2>
         <hr />
         <section>
           <h3 class="subtitle">자기소개</h3>
@@ -27,6 +27,24 @@
             갈망하며 도전을 꿈꾸는 분들이 많다는 것을 알게 되었어요. 나의 성장도 의미 있지만, 누군가의 성장을 함께할 수
             있다는 건 매일 새로운 설렘을 주는 일이에요.
           </p>
+        </section>
+
+        <section>
+          <h3 class="subtitle">나만의 갤러리</h3>
+          <article>
+            <h4>기억에 남는 여행지</h4>
+            <div class="gallery">
+                <img src="./images/1.png">
+                <img src="./images/2.png">
+                <img src="./images/3.png">
+                <img src="./images/4.png">
+                <img src="./images/5.png">
+                <img src="./images/6.png">
+                <img src="./images/7.png">
+                <img src="./images/8.png">
+                <img src="./images/9.png">
+            </div>
+          </article>
         </section>
 
         <section>
@@ -53,9 +71,11 @@
             <form>
               <fieldset>
                 <legend>댓글 쓰기</legend>
-                <textarea
+                <input type="text"
                   placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."
-                ></textarea>
+                >
+                <button type="button">등록</button>
+                <button type="reset">취소</button>
               </fieldset>
             </form>
           </div>
