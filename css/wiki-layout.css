@@ -75,6 +75,22 @@ div.thumbnail {
   margin-bottom: var(--page-paragraph-margin-y);
 }
 
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  width: 100%;
+  max-width: 600;
+  margin: auto;
+}
+
+.gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0;
+}
+
 section::after {
   content: "";
   display: block;
